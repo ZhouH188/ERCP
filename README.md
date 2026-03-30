@@ -1,8 +1,8 @@
 # ERCP
-Boosting Vehicle-to-Vehicle Collaborative Perception in Bird's-Eye View
+Boosting Vehicle-to-Vehicle Collaborative Perception in Bird's-Eye View by Attentive Feature Fusion and Robust Pose Correction
 ![ERCP_Overview](./images/Overview.png)
 
-> [**Boosting Vehicle-to-Vehicle Collaborative Perception in Bird's-Eye View**](https://doi.org/10.1109/LRA.2026.3653278),            
+> [**Boosting Vehicle-to-Vehicle Collaborative Perception in Bird's-Eye View by Attentive Feature Fusion and Robust Pose Correction**](https://doi.org/10.1109/LRA.2026.3653278),            
 > Hong Zhou\*, Chenyang Lu, Liang Li, Xiangchao Meng, Feng Shao and Qiuping Jiang 
 
 # Abstract
