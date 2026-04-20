@@ -205,23 +205,8 @@ def get_t_matrix(mask0,mask1,noise=None):
     # R[...,1,0] = R[...,1,0] * W / H
     # T[0] = T[0] / (W)
     # T[1] = T[1] / (H) 
-    if noise is not None and noise.get('add_noise', False) == True:  # 第一个条件：是否启用噪声
-        noise_args = noise.get('args', {})
-        pos_std = noise_args.get('pos_std', 0.0)
-        rot_std = noise_args.get('rot_std', 0.0)
-
-        if pos_std == 0 and rot_std == 0:  # 第二个条件：检查标准差是否都为0
-            return np.float32([[1, 0, 0],
-                               [0, 1, 0]])
-
-        else:
-            return np.float32([[R[0][0], R[0][1], T[0]],
-                               [R[1][0], R[1][1], T[1]]])
-
-    else:
-        return np.float32([[1, 0, 0],
-                           [0, 1, 0]])
-    
+    return np.float32([[R[0][0],R[0][1],T[0]],
+                       [R[1][0],R[1][1],T[1]]])
     X =  A_MEAN[0]
     Y =  A_MEAN[1]
     A = np.float64([[1, 0, -X],
