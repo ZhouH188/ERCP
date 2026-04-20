@@ -46,7 +46,7 @@ unzip train.zip
 - Models and parameters should be trained in perfect environment and tested in noisy environment.
 
 ### Test with pretrained model
-To test the pretrained model of ERCP, first download the model file from [google url](https://drive.google.com/drive/folders/1eweBGryHUe3uQZ2RutiKsOm5puEoGngF?usp=sharing) and
+To test the pretrained model of ERCP, first download the model file from [google url](https://drive.google.com/drive/folders/1eweB3d4HUe3uQZ2RutiKsOm5puEoGngF?usp=sharing) and
 then put it under v2xvit/logs/opv2v_ercp. Change the `validate_path` in `v2xvit/logs/opv2v_ercp/config.yaml` as `/data/opv2v/test`.
 
 To test under perfect setting, change `add_noise` to false in the v2xvit/logs/opv2v_ercp/config.yaml.
