@@ -135,7 +135,7 @@ model:
       only_attention: true
       agg_operator:
         # mode: 'SF'
-        mode: 'MEAN'
+        mode: 'ATTEN'
         # mode: 'Transformer'
         feature_dim: 256
         n_head: 8
