@@ -141,7 +141,7 @@ model:
         n_head: 8
         with_spe: false
         with_scm: false
-      multi_scale: false
+      multi_scale: true
       layer_nums: *layer_nums
       num_filters: *num_filters
       batch_size:  *batch_size
